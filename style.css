@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
 body,
 html {
-  font-family: "Noway", sans-serif;
+  font-family: "Barlow", "Noway", sans-serif;
   line-height: 1.6;
   font-size: 16px;
   color: #1d1d1d;
   margin: 0;
   padding: 0;
+  background: rgb(110, 163, 152);
 }
 
 .main {
@@ -39,12 +42,12 @@ h1 + h2 {
 
 h1 {
   font-size: 3.25em;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 h2 {
   font-size: 2.06em;
-  color: #838383;
+  color: rgba(0,0,0,0.3);
   font-weight: normal;
 }
 h1,
@@ -54,9 +57,9 @@ h2 {
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: bold;
   margin-bottom: 0.5em;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 ul {
@@ -65,10 +68,10 @@ ul {
 }
 li {
   display: inline-block;
-  background: #1d1d1d;
+  background: rgba(0,0,0,0.3);
   color: #fff;
   border-radius: 0.5em;
-  padding: 0.3em 0.65em 0;
+  padding: 0.3em 0.65em;
   text-align: center;
 	margin-bottom: 0.5em;
 	margin-right: .25em;
@@ -77,19 +80,6 @@ li {
 nav {
   margin-bottom: 2em;
 }
-
-/* h3 {
-  font-size: 1.625em;
-}
-h4 {
-  font-size: 1.25em;
-}
-h5 {
-  font-size: 1em;
-}
-h6 {
-  font-size: 0.8125em;
-} */
 
 a,
 a:visited {
@@ -104,58 +94,3 @@ nav li a,
 nav li a:visited {
   color: #fff;
 }
-
-/* @font-face {
-	font-family: 'Noway';
-	src: url('./fonts/Noway-Thin.woff2') format('woff2'),
-			url('./fonts/Noway-Thin.woff') format('woff'),
-			url('./fonts/Noway-Thin.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
-} */
-
-@font-face {
-	font-family: 'Noway';
-	src: url('./fonts/Noway.woff2') format('woff2'),
-			url('./fonts/Noway.woff') format('woff'),
-			url('./fonts/Noway.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Noway';
-	src: url('./fonts/Noway-Bold.woff2') format('woff2'),
-			url('./fonts/Noway-Bold.woff') format('woff'),
-			url('./fonts/Noway-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-/* @font-face {
-	font-family: 'Noway Icons';
-	src: url('./fonts/NowayIcons.woff2') format('woff2'),
-			url('./fonts/NowayIcons.woff') format('woff'),
-			url('./fonts/NowayIcons.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-*/
-@font-face {
-	font-family: 'Noway';
-	src: url('./fonts/Noway-Medium.woff2') format('woff2'),
-			url('./fonts/Noway-Medium.woff') format('woff'),
-			url('./fonts/Noway-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-} 
-
-@font-face {
-	font-family: 'Noway';
-	src: url('./fonts/Noway-Light.woff2') format('woff2'),
-			url('./fonts/Noway-Light.woff') format('woff'),
-			url('./fonts/Noway-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
