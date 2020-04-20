@@ -1,0 +1,39 @@
+.header
+  box-sizing: border-box
+  min-height: 80vh
+  display: flex
+  flex-direction: column
+  max-width: 100%
+  padding-top: 16vh
+  margin-bottom: 6rem
+  h2
+    margin-left: -6px
+
+  .name,
+  .job-title
+    font-weight: normal
+    line-height: 1
+    margin: 0 0 0.5rem 0
+
+.name
+  text-transform: uppercase
+  letter-spacing: 0.5rem
+  font-size: 8vw
+
+.job-title
+  font-size: 16vw
+
+.intro
+  font-size: 1.6rem
+  margin-top: 3rem
+  max-width: 44rem
+
+@media screen and (min-width: 1024px)
+  .name
+    font-size: 2.5rem
+
+  .job-title
+    font-size: 7.5rem
+
+  .header
+    margin-bottom: 6rem
